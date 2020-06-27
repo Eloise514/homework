@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: thick double #32a1ce;;
+          border-collapse: collapse;
+        }
+    <!--border separately given to th td-->
+        th, td {
+          padding: 8px;
+          text-align: left;
+        }
+        #table1 {
+          width: 50%;    
+          background-color: #ffffff;
+        }   
+      
+        .imagea{  
+                display: block;
+                margin: 0 auto;
+                padding:20
+            }  
+        .imagea img {              
+          max-height: 235px;
+          margin:5px;
+          overflow: visible;
+          float:left
+            }  
+
+        .imagea:hover img {  
+                transform: scale(1.2);  
+                transition: all 1s ease 0s;
+            } 
+        .question9 input {
+            background-color: #eee;
+            width: 200px;
+            height: 60px;
+            border: 1px dotted black;
+            overflow: scroll;
+}
+        </style>
+</head>
+
+
+<body>
+    <ul>
+        <li><a  href="https://www.baidu.com" >百度</a></li>
+        <li><a  href="https://www.google.com" >Google</a></li>
+        <li><a  href="https://www.youtube.com" >Youtube</a></li>
+    </ul>
+
+
+    <h2>喜欢的电视剧</h2>
+      <div class="imagea">
+          <img src= "https://i1.kknews.cc/SIG=lbqal0/ctp-vzntr/r79rn2n5516r4o31890qrq95qsq91r46.jpg"  title="实习医生格蕾"/>
+      </div>  
+      <div class="imagea">
+          <img src= "https://upload.wikimedia.org/wikipedia/zh/a/a4/Friends_ver6.jpg" title="Friends"/>
+      </div>  
+      <div class="imagea">
+          <img src= "http://5b0988e595225.cdn.sohucs.com/images/20181205/bfc5ad23515342d18f69626e55c788b4.jpeg" title='How I meet your mother'/>
+      </div>  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+    <ol type='1'>
+        <li><a  href="http://music.163.com/playlist?id=603465931&userid=422429142" >我喜欢听的歌</a></li>
+        <li><a  href="https://www.youtube.com/watch?v=B-2sYiqF47Q" >我喜欢的歌手</a></li>
+    </ol> 
+
+    <table id="table1">
+        <tr>
+          <th>金额</th>
+          <th>详情</th> 
+          <th>操作</th>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>耳机</td>
+          <td>删除</td>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>键盘</td>
+          <td>删除</td>
+        </tr>
+        <tr>
+          <td>10000</td>
+          <td>无人机</td>
+          <td>删除</td>
+        </tr>
+        <tr>
+            <td>总计</td>
+            <td colspan="2">14000</td>
+          </tr>
+      </table>
+      <br>
+      <br>
+    
+    
+      <div class=question5>
+        <label for="yhm">用户名</label>
+        <input type="text" id="yhm" name="yhm" value='张三'><br><br>
+        <label for="mm">密码</label>
+        <input type="password" id="mm" name="mm"><br><br>
+        <input type="submit" value="Submit">
+      </div>
+<br>
+<br>
+      <form action="/action_page.php">
+        <input type="checkbox" >
+        <label for="m"> 男</label>
+        <input type="checkbox"  checked=checked>
+        <label for="fm"> 女</label><br>
+        <input type="submit" value="Submit">
+      </form>
+<br>
+<br>
+<h2>喜欢的运动</h2>
+<form action="/action_page.php">
+  <input type="checkbox" checked=checked>
+  <label> 篮球</label>
+  <input type="checkbox">
+  <label> 足球</label>
+  <input type="checkbox" checked=checked>
+  <label> 乒乓球</label>
+</form>
+<br>
+<br>
+<br>
+<div class="question9">
+  <textarea name="input_text" rows=3 cols="30">input_text</textarea>
+  <br><br>
+</div>
+<input type="submit">
+
+</body>
+
+
+
+</html>
